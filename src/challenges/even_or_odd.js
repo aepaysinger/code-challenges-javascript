@@ -1,10 +1,8 @@
 function evenOrOdd(number) {
-
-    if (number%2 == 0)
-{    
+  if (number % 2 == 0) {
     return "Even";
-} else {
+  } else {
     return "Odd";
-}
+  }
 }
 module.exports = evenOrOdd;
