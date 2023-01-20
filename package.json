@@ -1,0 +1,22 @@
+{
+  "name": "code-challenges-javascript",
+  "version": "1.0.0",
+  "description": "code-challenges javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aepaysinger/code-challenges-javascript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aepaysinger/code-challenges-javascript/issues"
+  },
+  "homepage": "https://github.com/aepaysinger/code-challenges-javascript#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
