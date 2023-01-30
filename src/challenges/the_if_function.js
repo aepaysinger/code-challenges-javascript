@@ -1,7 +1,9 @@
 function _if(bool, func1, func2) {
-    if (bool == True) {
-        return func1()
+    if (bool) {
+        func1()
     } else {
-        return func2()
+        func2()
     }
   }
+
+module.exports = _if;
