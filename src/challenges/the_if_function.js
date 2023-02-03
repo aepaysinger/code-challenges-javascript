@@ -6,4 +6,4 @@ function _if(bool, func1, func2) {
     }
   }
 
-module.exports = _if;
+module.exports = _if; 
