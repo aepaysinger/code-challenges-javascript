@@ -1,7 +1,7 @@
-function grow(x){
-    result = 1
-  console.log(x)
-    x.forEach(num => result *= num)
-    return result
+function grow(x) {
+  result = 1
+
+  x.forEach((num) => (result *= num))
+  return result
 }
 module.exports = grow
