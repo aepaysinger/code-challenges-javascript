@@ -1,7 +1,7 @@
-function grow(x) {
+function grow(nums) {
   result = 1
 
-  x.forEach((num) => (result *= num))
+  nums.forEach((num) => (result *= num))
   return result
 }
 module.exports = grow
