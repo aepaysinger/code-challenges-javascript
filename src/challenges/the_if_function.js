@@ -1,17 +1,17 @@
 function _if(bool, func1, func2) {
   if (bool) {
-    func1()
+    return func1()
   } else {
-    func2()
+    return func2()
   }
 }
 
 function func1() {
-  console.log("function 1 was called")
+  return "function 1 was called"
 }
 
 function func2() {
-  console.log("function 2 was called")
+  return "function 2 was called"
 }
 
-module.exports = _if, func1, func2;
+;(module.exports = _if), func1, func2
