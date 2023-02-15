@@ -1,20 +1,22 @@
 function duplicateCount(text) {
   text = text.toLowerCase()
-  let charCounter = {}
-  let total = 0
-  for (const x of text) {
-    if (x in charCounter) {
-      charCounter[x] += 1
+  let counts = text.split("").reduce((charCounter, char) => {
+    if (char in charCounter) {
+      charCounter[char] += 1
     } else {
-      charCounter[x] = 1
+      charCounter[char] = 1
     }
-  }
-  for (const x in charCounter) {
-    if (charCounter[x] >= 2) {
+    return charCounter
+  }, {})
+
+  let totalCount = Object.keys(counts).reduce((total, key) => {
+    if (counts[key] >= 2) {
       total += 1
     }
-  }
-  return total
+    return total
+  }, 0)
+
+  return totalCount
 }
 
 module.exports = duplicateCount
