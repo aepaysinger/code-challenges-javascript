@@ -8,7 +8,6 @@ function duplicateCount(text) {
     }
     return charCounter
   }, {})
-
   let totalCount = Object.keys(counts).reduce((total, key) => {
     if (counts[key] >= 2) {
       total += 1
