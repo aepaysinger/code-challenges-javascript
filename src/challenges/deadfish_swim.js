@@ -1,7 +1,7 @@
 const parse = (data) => {
   let value = 0
   let valuesArray = []
-  for (item of data) {
+  const changeValue = (item) => {
     if (item === "i") {
       value += 1
     } else if (item === "d") {
@@ -12,6 +12,9 @@ const parse = (data) => {
       valuesArray.push(value)
     }
   }
+
+  data.split("").forEach(changeValue)
+
   return valuesArray
 }
 
