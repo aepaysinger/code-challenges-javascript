@@ -46,5 +46,5 @@ const high = (x) => {
 
   return topWord
 }
-console.log(high("thanks for all of your help"))
+
 module.exports = high
