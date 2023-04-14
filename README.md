@@ -3,19 +3,13 @@ This repo is for Javascript code-challenges
 ## Set up
 1) cd into the directory you want this repository in - clone it down
 ```
-git clone <path>
+git clone https://github.com/aepaysinger/code-challenges-javascript.git
 ```
-2) install jest for testing
+2) install devDependencies for testing
 ```
-npm install --save-dev jest
+npm install --production
 ```
-3) in package.json
- ``` {
-  "scripts": {
-    "test": "jest"
-  }
-}
-```
+
 ## Run files
 ```
 node <path to file>
