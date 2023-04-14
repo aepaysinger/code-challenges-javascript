@@ -3,7 +3,7 @@ This repo is for Javascript code-challenges
 ## Set up
 1) cd into the directory you want this repository in - clone it down
 ```
-git clone <path>
+glt clone https://github.com/aepaysinger/code-challenges-javascript.git
 ```
 2) install jest for testing
 ```
