@@ -1,6 +1,6 @@
 const stockList = require("../challenges/helpTheBookSeller.js")
 
-test("['BBAR 150', 'CDXE 515', 'BKWR 250', 'BTSQ 890', 'DRTY 600']", () => {
+test("stockList A", () => {
   expect(
     stockList(
       ["BBAR 150", "CDXE 515", "BKWR 250", "BTSQ 890", "DRTY 600"],
@@ -11,4 +11,13 @@ test("['BBAR 150', 'CDXE 515', 'BKWR 250', 'BTSQ 890', 'DRTY 600']", () => {
 
 test("[]", () => {
   expect(stockList([], ["A", "B", "C", "D"])).toBe("")
+})
+test("stockList B", () => {
+  expect(stockList([], ["A", "B", "C", "D"])).toBe("")
+})
+
+test("stockList C", () => {
+  expect(
+    stockList(["BBAR 150", "CDXE 515", "BKWR 250", "BTSQ 890", "DRTY 600"], [])
+  ).toBe("")
 })
