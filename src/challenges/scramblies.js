@@ -15,7 +15,6 @@ const scramble = (str1, str2) => {
       str2_character_count[character] = 1
     }
   }
-  console.log(str1_character_count, str2_character_count)
   for (key in str2_character_count) {
     if (str1_character_count[key] === undefined) {
       return false
