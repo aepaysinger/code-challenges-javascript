@@ -3,8 +3,8 @@ const luckCheck = (ticket) => {
   let rightSide = 0
   let halfWay = Math.floor(ticket.length / 2)
   for (let i in ticket) {
-    if (isNaN(ticket[i])) {
-      throw new Error("letter not number")
+    if (isNaN(ticket[i]) || ticket[i] === " ") {
+      throw new Error("incorrect ticket")
     }
     if (ticket.length % 2 === 0) {
       if (i <= halfWay - 1) {
@@ -24,4 +24,4 @@ const luckCheck = (ticket) => {
   return leftSide === rightSide
 }
 
-console.log(luckCheck("1a13111"))
+module.exports = luckCheck
