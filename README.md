@@ -7,7 +7,7 @@ git clone https://github.com/aepaysinger/code-challenges-javascript.git
 ```
 2) install devDependencies for testing
 ```
-npm install --production
+npm install 
 ```
 
 ## Run files
@@ -29,6 +29,6 @@ npm test
 ### Convert boolean To String:
   * Module: `src/challenges/convert_boolean_to_string.js`
   * Tests: `src/tests/convert_boolen_to_string.test.js`
-## Counting Duplicate:
+### Counting Duplicate:
 
 
