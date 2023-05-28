@@ -5,13 +5,14 @@ const stockList = (listOfArt, listOfCat) => {
   if (listOfArt.length === 0 || listOfCat.length === 0) {
     return ""
   }
+
   listOfArt.forEach((book) => {
-    let bookCode = book.split(" ")[0][0]
-    let bookNumber = book.split(" ")[1]
-    if (bookCode in codeTotals) {
-      codeTotals[bookCode] += parseInt(bookNumber)
+    book = book.split(" ")
+
+    if (book[0][0] in codeTotals) {
+      codeTotals[book[0][0]] += parseInt(book[1])
     } else {
-      codeTotals[bookCode] = parseInt(bookNumber)
+      codeTotals[book[0][0]] = parseInt(book[1])
     }
   })
   listOfCat.forEach((letter) => {

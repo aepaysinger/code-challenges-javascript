@@ -9,6 +9,9 @@ test("stockList A", () => {
   ).toBe("(A : 0) - (B : 1290) - (C : 515) - (D : 600)")
 })
 
+test("[]", () => {
+  expect(stockList([], ["A", "B", "C", "D"])).toBe("")
+})
 test("stockList B", () => {
   expect(stockList([], ["A", "B", "C", "D"])).toBe("")
 })
