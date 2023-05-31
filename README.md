@@ -1,9 +1,22 @@
 # code-challenges-javascript
-This repo is for Javascript code-challenges
+This repo is for Javascript code-challenges.
+You will need to have node installed locally
 ## Set up
-cd into the directory you want this repository in - clone it down
+move into the directory you want this repository in 
+```
+cd name of directory
+```
+clone down repository
 ```
 git clone https://github.com/aepaysinger/code-challenges-javascript.git
+```
+move into folder
+```
+cd code-challenges-javascript
+```
+install dependancies
+```
+npm install
 ```
 
 ## Run files
