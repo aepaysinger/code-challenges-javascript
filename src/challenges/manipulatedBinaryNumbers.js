@@ -1,13 +1,9 @@
 const eliminateUnsetBits = (number) => {
-  let justOnes = ""
-  for (let i = 0; i <= number.length; i++) {
-    if (number[i] === "1") {
-      justOnes += number[i]
-    }
-  }
+  let justOnes = number.split("0").join("")
   if (justOnes.length === 0) {
     return 0
   }
+
   return parseInt(justOnes, 2)
 }
 
