@@ -86,6 +86,10 @@ npm test
   * Module: `src/challenges/scramblies.js`
   * Tests: `src/tests/scramblies.test.js`
   * URL: [Challenge URL](https://www.codewars.com/kata/55c04b4cc56a697bb0000048/javascript)
+### Eliminate the Intruders! Bit manipulation (7kyu):
+  * Module: `src/challenges/manipulatedBinaryNumbers.js`
+  * Tests: `src/tests/manipulatedBinaryNumbers.test.js`
+  * URL: [Challenge URL](https://www.codewars.com/kata/5a0d38c9697598b67a000041/javascript)
 ## Other
 ### Convert boolean To String:
   * Module: `src/challenges/convert_boolean_to_string.js`
