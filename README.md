@@ -112,3 +112,14 @@ npm test
 ### In Between:
   * Module: `src/challenges/whatIsBeteween.js`
   * Tests: `src/tests/WhatIsBetween.test.js`
+## Free Code Camp
+### Counting Cards:
+  * Module: `src/challenges/countingCards.js`
+  * Tests: `src/tests/countingCards.test.js`
+  * URL: [URL](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/counting-cards)
+### Records Collection:
+  * Module: `src/challenges/recordsCollection.js`
+  * Tests: `src/tests/recordsCollection.test.js`
+### Profile Lookup:
+  * Module: `src/challenges/profileLookup.js`
+  * Tests: `src/tests/profileLookup.test.js`
