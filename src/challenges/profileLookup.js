@@ -25,7 +25,7 @@ const contacts = [
     likes: ["JavaScript", "Gaming", "Foxes"],
   },
 ]
-module.exports = contacts
+
 const lookUpProfile = (name, prop) => {
   // Only change code below this line
 
@@ -40,7 +40,7 @@ const lookUpProfile = (name, prop) => {
   }
   // Only change code above this line
 }
-module.exports = lookUpProfile
+module.exports = { contacts, lookUpProfile }
 // console.log(lookUpProfile("Kristian", "lastName"))
 // console.log(lookUpProfile("Sherlock", "likes"))
 // console.log(lookUpProfile("Harry", "likes"))
