@@ -1,8 +1,14 @@
-const updateRecords = require("../challenges/recordsCollection.js")
-const recordCollection = require("../challenges/recordsCollection.js")
+const myFunctions = require("../challenges/recordsCollection.js")
 
 test("adding ABBA", () => {
-  expect(updateRecords(recordCollection, 5439, "artist", "ABBA")).toBe({
+  expect(
+    myFunctions.updateRecords(
+      myFunctions.recordCollection,
+      5439,
+      "artist",
+      "ABBA"
+    )
+  ).toStrictEqual({
     1245: { artist: "Robert Palmer", tracks: [] },
     2468: {
       albumTitle: "1999",

@@ -23,7 +23,7 @@ function cc(card) {
     return count.toString() + " Hold"
   }
 }
-module.exports = cc
+
 const cardGame = (card) => {
   let up = [2, 3, 4, 5, 6]
   let down = [10, "J", "Q", "K", "A"]
@@ -38,7 +38,4 @@ const cardGame = (card) => {
     return count.toString() + " Hold"
   }
 }
-module.exports = cardGame
-// cardGame(2)
-// cardGame(3)
-// console.log(cardGame(4))
+module.exports = { cc, cardGame, count }

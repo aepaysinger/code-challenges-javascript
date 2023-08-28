@@ -18,8 +18,6 @@ const recordCollection = {
   },
 }
 
-module.exports = recordCollection
-
 const updateRecords = (records, id, prop, value) => {
   if (value === "") {
     delete records[id][prop]
@@ -37,9 +35,8 @@ const updateRecords = (records, id, prop, value) => {
   return records
 }
 
-module.exports = updateRecords
+module.exports = { recordCollection, updateRecords }
 
-// console.log(updateRecords(recordCollection, 5439, "artist", "ABBA"))
 // updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me")
 // updateRecords(recordCollection, 2548, "artist", "")
 // updateRecords(recordCollection, 1245, "tracks", "Addicted to Love")
