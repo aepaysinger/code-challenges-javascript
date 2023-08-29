@@ -116,3 +116,7 @@ npm test
 ### In Between:
   * Module: `src/challenges/whatIsBeteween.js`
   * Tests: `src/tests/WhatIsBetween.test.js`
+### Count Down:
+  * Module: `src/challenges/countDwon.js`
+  * Tests: `src/tests/countDown.test.js`
+  * URL: [URL](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-countdown)
