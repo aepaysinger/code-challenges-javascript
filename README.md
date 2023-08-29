@@ -120,3 +120,7 @@ npm test
   * Module: `src/challenges/recursionRange.js`
   * Tests: `src/tests/recursionRange.test.js`
   * URL: [Challenge URL](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers)
+### Count Down:
+  * Module: `src/challenges/countDwon.js`
+  * Tests: `src/tests/countDown.test.js`
+  * URL: [URL](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-countdown)
