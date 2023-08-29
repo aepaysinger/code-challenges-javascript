@@ -1,19 +1,11 @@
-const countDown = (n) => {
-  // Base case
+const countDown = (n, holding = []) => {
   if (n < 1) {
-    return []
+    return holding
   } else {
-    const countArray = countDown(n - 1)
-    countArray.push(3 - n + 1)
-    return countArray
+    holding.push(n)
+    countDown(n - 1, holding)
+    return holding
   }
 }
-console.log(countDown(3))
-// module.exports = countDown
-// countDown(1)
-// countDown(2)
-// countDown(3)[(3, 2, 1)]
 
-// 3
-// 2
-// 1
+module.exports = countDown
